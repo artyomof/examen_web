@@ -1,3 +1,4 @@
+document.addEventListener("keydown", () => {
 const xhr = new XMLHttpRequest();
 xhr.open('GET', 'content.html', true);
 xhr.onload = function() {
@@ -10,4 +11,4 @@ xhr.onload = function() {
 xhr.onerror = function() {
   console.error('Ошибка запроса');
 };
-xhr.send();
+xhr.send();}
