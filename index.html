@@ -22,7 +22,7 @@
 	</ul>
 	<hr />
 	<script>
-	loadContent(){
+	function loadContent(){
 		const xhr = new XMLHttpRequest();
 		xhr.open('GET', 'content.html', true);
 		xhr.onload = function() {
@@ -40,7 +40,8 @@
 	}
 	</script>
 	<script>
-	document.getElementById('loadButton').addEventListener('click', loadContent);
+	document.addEventListener('DOMContentLoaded', function() {
+  		document.getElementById('loadButton').addEventListener('click', loadContent);});
 	</script>
 	<div id="content-area"></div>
 </body>
