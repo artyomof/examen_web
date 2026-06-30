@@ -1,31 +1,30 @@
 body {
-    background-color: #f5f5dc; /* бежевый фон */
-    color: green; /* цвет текста по умолчанию */
+    background-color: #f5f5dc;
+    color: green;
     font-family: "Times New Roman", Times, serif;
     margin: 20px;
-    /* Можно добавить структурированное форматирование, например: */
     line-height: 1.5;
 }
 
 /* Заголовки */
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, sans-serif;
-    font-weight: normal; /* обычная насыщенность */
-    font-size: 18pt; /* размер для всех заголовков */
+    font-weight: normal;
+    font-size: 18pt;
 }
 
-/* Заголовки первого уровня отдельно (можно оставить, чтобы быть точнее): */
+
 h1 {
     font-size: 18pt;
 }
 
-/* Абзацы */
+
 p {
     font-family: "Times New Roman", Times, serif;
     font-size: 12pt;
 }
 
-/* Таблицы */
+
 table {
     font-family: "Times New Roman", Times, serif;
     font-size: 10pt;
@@ -38,12 +37,12 @@ th, td {
     padding: 5px;
 }
 
-/* Размер шрифта в таблицах */
+
 table td {
     font-size: 10pt;
 }
 
-/* Цитаты */
+
 blockquote {
     font-family: "Times New Roman", Times, serif;
     font-size: 10pt;
@@ -51,7 +50,7 @@ blockquote {
     margin: 10px 0;
 }
 
-/* Большие цитаты (например, с классом large-quote) */
+
 .large-quote {
     font-family: "Times New Roman", Times, serif;
     font-size: 10pt;
@@ -60,14 +59,14 @@ blockquote {
     margin: 15px 0;
 }
 
-/* Тег адреса */
+
 address {
     font-family: "Times New Roman", Times, serif;
     font-size: 10pt;
     font-style: italic;
 }
 
-/* Классы для структурированного форматирования */
+
 .header {
     /* пример структурированного стиля */
     font-weight: bold;
@@ -75,8 +74,7 @@ address {
 }
 
 .content {
-    /* структура для основного контента */
+    
     padding: 10px;
 }
 
-/* Можно добавить классы по необходимости */
