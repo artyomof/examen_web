@@ -1,4 +1,5 @@
-document.addEventListener("keydown", () => {
+document.getElementById('loadButton').addEventListener('click', loadContent);
+loadContent(){
 const xhr = new XMLHttpRequest();
 xhr.open('GET', 'content.html', true);
 xhr.onload = function() {
