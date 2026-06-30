@@ -53,15 +53,6 @@ blockquote {
 }
 
 
-.large-quote {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 10pt;
-    font-style: italic;
-    display: block;
-    margin: 15px 0;
-}
-
-
 address {
     font-family: "Times New Roman", Times, serif;
     font-size: 10pt;
