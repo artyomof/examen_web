@@ -6,19 +6,19 @@ body {
     line-height: 1.5;
 }
 
-/* Заголовки */
+h1 {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 20pt;
+}
+
+
 h2, h3, h4, h5, h6 {
     font-family: Arial, sans-serif;
     font-weight: normal;
     font-size: 18pt;
 }
 
-
-h1 {
-    font-family: Arial, sans-serif;
-    font-weight: normal;
-    font-size: 20pt;
-}
 
 
 p {
@@ -70,7 +70,6 @@ address {
 
 
 .header {
-    /* пример структурированного стиля */
     font-weight: bold;
     text-align: center;
 }
