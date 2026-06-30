@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="styles.css" />
+	<script src="script1.js" defer></script>
+	<script src="loadContent.js" defer></script>
+</head>
+<body>
+    <ul style="list-style-type: disc;">
+        <li>Первый элемент</li>
+        <li>Второй элемент</li>
+        <li>Третий элемент</li>
+        <li>
+            Четвертый элемент (в нем вставлен нумерованный список)
+            <ol style="list-style-type: lower-roman; counter-reset: item 10;">
+                <li>Пятый элемент</li>
+                <li>Шестой элемент</li>
+                <li>Седьмой элемент</li>
+                <li>Восьмой элемент</li>
+                <li>Девятый элемент</li>
+            </ol>
+        </li>
+        <li>Пятый элемент</li>
+    </ul>
+
+
+    <img src="https://tse3.mm.bing.net/th/id/OIP.-IL817FrLWiCdxpRLkxk2wHaF3?r=0&cb=thfc1falcon3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Пример изображения" />
+
+
+    <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+        Ваш браузер не поддерживает видео.
+    </video>
+
+
+    <a href="#section1" id="section1">Перейти к разделу 1</a>
+    <h2 id="section1">Раздел 1</h2>
+    <p>Это пример раздела, к которому можно перейти по якорю.</p>
+	
+	<table border="1">
+	  <tr>
+		<td rowspan="2">ячейка 1</td>
+		<td rowspan ="2">ячейка 2</td>
+		<td>ячейка 3</td>
+		<td rowspan = "2">ячейка 4</td>
+	  </tr>
+	  <tr>
+		<td>ячейка 5</td>
+	  </tr>
+	  <tr>
+		<td colspan="2">ячейка 6</td>
+		<td colspan="2">ячейка 7</td>
+	  </tr>
+	</table>
+	
+	<form>
+	  <label>
+		<input type="checkbox" name="option1" /> Опция 1
+	  </label><br>
+	  <label>
+		<input type="checkbox" name="option2" /> Опция 2
+	  </label><br>
+	  <label>
+		<input type="checkbox" name="option3" /> Опция 3
+	  </label><br>
+
+
+	  <p>Выберите один вариант:</p>
+	  <label>
+		<input type="radio" name="choice" value="A" /> Вариант A
+	  </label><br>
+	  <label>
+		<input type="radio" name="choice" value="B" /> Вариант B
+	  </label><br>
+	  <label>
+		<input type="radio" name="choice" value="C" /> Вариант C
+	  </label><br>
+
+
+	  <button type="submit">Отправить</button><br><br>
+
+
+	  <label for="message">Сообщение:</label><br>
+	  <textarea id="message" name="message" rows="5" cols="40"></textarea>
+	  
+	  
+</form>	  
+	  
+	  <hr />
+
+
+	<ul>
+		<li>Пункт 1</li>
+		<li>Пункт 2</li>
+		<li>Пункт 3</li>
+	</ul>
+
+
+	<hr />
+
+
+	<div id="content-area"></div>
+</body>
+</html>
